@@ -1,6 +1,6 @@
 [project]
 name = "praemunio-sdk"
-version = "1.0.0"
+version = "1.0.1"
 description = "Python client for the Praemunio public API"
 authors = [
   {name = "Praemunio", email = "team@praemunio.org"},
