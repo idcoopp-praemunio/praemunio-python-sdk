@@ -19,6 +19,11 @@ __version__ = "1.0.0"
 # Define package exports
 __all__ = [
     "PraemunioClient",
+    "WorkspacesApi",
+    "TeamsApi",
+    "TeamsMembersApi",
+    "FoldersApi",
+    "DocumentsApi",
     "DefaultApi",
     "ApiResponse",
     "ApiClient",
@@ -71,7 +76,14 @@ __all__ = [
 ]
 
 # import PraemunioClient (high-level client)
-from openapi_client.praemunio_client import PraemunioClient as PraemunioClient
+from openapi_client.praemunio_client import (
+    PraemunioClient as PraemunioClient,
+    WorkspacesApi as WorkspacesApi,
+    TeamsApi as TeamsApi,
+    TeamsMembersApi as TeamsMembersApi,
+    FoldersApi as FoldersApi,
+    DocumentsApi as DocumentsApi,
+)
 
 # import apis into sdk package
 from openapi_client.api.default_api import DefaultApi as DefaultApi
