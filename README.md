@@ -14,8 +14,8 @@ pip install praemunio-sdk
 from openapi_client.praemunio_client import PraemunioClient
 
 client = PraemunioClient.sandbox(
-    "pk_test_...",
-    "sk_test_..."
+    "YOUR_PUBLIC_KEY",
+    "YOUR_SECRET_KEY"
 )
 
 client.authenticate()

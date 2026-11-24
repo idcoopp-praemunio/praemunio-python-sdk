@@ -52,7 +52,7 @@ setup(
 
         from praemunio_sdk import PraemunioClient
 
-        client = PraemunioClient.sandbox("pk_test_...", "sk_test_...")
+        client = PraemunioClient.sandbox("YOUR_PUBLIC_KEY", "YOUR_SECRET_KEY")
         client.authenticate()
         api = client.create_api()
         result = api.workspaces_drive_get()
